@@ -4,7 +4,7 @@ var myNode = document.createElement("div");
 document.getElementById("digitalClock").appendChild(myNode);
 
 var updateTime = function(){ 
-    console.info('tick tock'); 
+    console.info('ticktock'); 
     var myDate = new Date();
 myNode.innerHTML = myDate.toTimeString().substring(0, 8);
    } 
